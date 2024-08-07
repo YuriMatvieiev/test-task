@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"Home" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <main class="page">
+        <section class="hero">
+          <div class="hero__top">
+            <h1 class="hero__title">
+              Investire 250 euro per raggiungere 5000 euro in una settimana vi
+              sembra impossibile? <br />
+              Con il Gruppo Generali potete fare ancora di più!
+            </h1>
+            <div class="hero__form-wrap">
+              <img src="@img/hero-bg.svg" alt="Image" />
+              <form action="#" class="hero__form">
+                <input
+                  type="text"
+                  name="nome"
+                  data-required
+                  data-error="Check the inputs"
+                  placeholder="il suo nome"
+                  class="hero__form-input"
+                />
+                <input
+                  type="text"
+                  name="cog"
+                  data-required
+                  data-error="Check the inputs"
+                  placeholder="il suo cog"
+                  class="hero__form-input"
+                />
+                <input
+                  type="email"
+                  data-required
+                  name="e-mail"
+                  data-error="Check the inputs"
+                  placeholder="e-mail"
+                  class="hero__form-input"
+                />
+                <input type="text" id="phone" />
+                <button class="red-button" type="submit">registrati</button>
+              </form>
+            </div>
+            <img src="@img/rectangle.png" class="hero__photo" alt="Image" />
+            <div class="hero__desc">
+              <div class="hero__subtitle">IL NOSTRO SCOPO</div>
+              <div class="hero__text">
+                Siamo qui per promuovere lo sviluppo e la circolazione delle
+                persone, delle imprese e del Paese.
+              </div>
+            </div>
+          </div>
+          <div class="hero__bottom">
+            <h2 class="hero__bottom-title">Inizia a servire con noi</h2>
+            <div class="hero__items">
+              <div class="hero__item">
+                <img src="@img/registrazione.svg" alt="Image" />
+                <div class="hero__item-title">Registrazione</div>
+                <div class="hero__item-text">
+                  Compilare tutti i campi del modulo di registrazione sul sito
+                  web.
+                </div>
+                <a href="#" class="red-button hero__item-button">INIZIARE</a>
+              </div>
+              <div class="hero__item">
+                <img src="@img/consultazione.svg" alt="Image" />
+                <div class="hero__item-title">Consultazione di esperti</div>
+                <div class="hero__item-text">
+                  Dopo la registrazione, rispondere all'invito del Consulente di
+                  supporto di Petrol Energia e seguire tutte le sue istruzioni.
+                </div>
+                <a href="#" class="red-button hero__item-button">INIZIARE</a>
+              </div>
+              <div class="hero__item">
+                <img src="@img/deposito.svg" alt="Image" />
+                <div class="hero__item-title">Deposito</div>
+                <div class="hero__item-text">
+                  Dopo la verifica, è necessario depositare un minimo di 250
+                  euro sul conto dell'azionista.
+                </div>
+                <a href="#" class="red-button hero__item-button">INIZIARE</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ceo">
+          <div class="ceo__container">
+            <img src="@img/ceo.png" class="ceo__photo" alt="Image" />
+            <div class="ceo__text">
+              Philippe Donnet, amministratore delegato di Generali, ha appena
+              festeggiato dieci anni in Italia e in un’intervista a “Repubblica”
+              spiega che bilancio trae dal nostro Paese: “In questi dieci anni
+              il mondo ha dovuto fare i conti con prove molto dure e questo ci
+              ha resi più capaci di gestire l’imprevedibile. L’Italia ha
+              resistito bene. Per quanto mi riguarda, tre anni fa sono diventato
+              cittadino italiano: perché ci tenevo a rimarcare un’adesione forte
+              ai valori e alla cultura di questo Paese”. Un’altra prova per
+              l’economia è stato il repentino rialzo dei tassi: “A mio parere è
+              improprio parlare oggi di tassi alti: quando ero teenager, i mutui
+              viaggiavano a due cifre percentuali. La vera anomalia è stata
+              vivere con tassi a zero per quindici anni. Oggi siamo in una
+              situazione normale. Per quel che riguarda il nostro gruppo,
+              abbiamo un business mix grazie al quale possiamo crescere in
+              qualsiasi ciclo economico”. La crescita dell’Italia è stimata
+              attorno allo 0,7 per cento: “Noi non avremo problemi ma per la
+              crescita si può fare meglio, in Italia e in Europa. Ritengo che in
+              Europa non ci sia abbastanza Europa, ma troppe tasse e troppe
+              norme, che si sovrappongono a quelle nazionali. Questo non aiuta
+              né le famiglie né le imprese: quindi abbassiamo le tasse,
+              riduciamo le norme e liberiamo le energie imprenditoriali”.
+            </div>
+          </div>
+          <h3 class="ceo__range-title">Potencijal dobiti</h3>
+          <div class="ceo__range-wrap">
+            <div class="ceo__range-left">
+              <input
+                type="text"
+                class="js-first-range"
+                name="my_range"
+                value=""
+              />
+              <input
+                type="text"
+                class="js-second-range"
+                name="my_range"
+                value=""
+              />
+              <a href="#" class="ceo__range-button"
+                >MOGUĆA DOBIT: <span>€ 8600</span></a
+              >
+            </div>
+            <div class="ceo__range-right">
+              <div class="ceo__range-right-title">UKUPNA DOBIT KORISNIKA:</div>
+              <div class="ceo__range-right-text">€ 128 567 000</div>
+              <div class="ceo__range-right-title">AKTIVNI KORISNICI:</div>
+              <div class="ceo__range-right-text">77 335</div>
+            </div>
+          </div>
+        </section>
+        <section class="testimonials">
+          <div class="testimonials__container">
+            <div class="testimonials__slider swiper">
+              <div class="testimonials__wrapper swiper-wrapper">
+                <div class="testimonials__slide swiper-slide">
+                  <div class="testimonials__slide-top">
+                    <img
+                      src="@img/testi-1.png"
+                      alt="image"
+                      class="testimonials__slide-photo"
+                    />
+                    <div class="testimonials__slide-name">Jeff Bezos:</div>
+                    <div class="testimonials__slide-role">
+                      Technologieunternehmer, Investor und Philanthrop
+                    </div>
+                    <a href="#" class="testimonials__slide-fb"
+                      ><img src="@img/logos_facebook.svg" alt="Image"
+                    /></a>
+                  </div>
+                  <div class="testimonials__slide-text">
+                    Dem Quantencomputing gehört die Zukunft. Ich übertreibe
+                    nicht, wenn ich sage, es wird alles verändern wird. Das
+                    Quantencomputing steht noch ganz am Anfang; nicht viele
+                    Menschen wissen davon, was bedeutet, dass nur sehr wenige es
+                    nutzen. Die wenigen, die es nutzen, treffen unglaublich
+                    kluge (und profitable) Entscheidungen.
+                  </div>
+                </div>
+                <div class="testimonials__slide swiper-slide">
+                  <div class="testimonials__slide-top">
+                    <img
+                      src="@img/testi-2.png"
+                      alt="image"
+                      class="testimonials__slide-photo"
+                    />
+                    <div class="testimonials__slide-name">Jeff Bezos:</div>
+                    <div class="testimonials__slide-role">
+                      Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                      Menschenfreund
+                    </div>
+                    <a href="#" class="testimonials__slide-fb"
+                      ><img src="@img/logos_facebook.svg" alt="Image"
+                    /></a>
+                  </div>
+                  <div class="testimonials__slide-text">
+                    Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von
+                    seinem eigenen Geld ausgegeben hat, um dieses Programm zu
+                    finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar
+                    von seinem eigenen Geld, um eine bessere Zukunft für alle zu
+                    finanzieren und um anderen zu helfen Gewinne zu machen, die
+                    ihm dabei helfen werden! Das ist eine Win-Win-Situation, und
+                    ich bin sehr gespannt zu sehen, wohin das führen wird.
+                  </div>
+                </div>
+                <div class="testimonials__slide swiper-slide">
+                  <div class="testimonials__slide-top">
+                    <img
+                      src="@img/testi-3.png"
+                      alt="image"
+                      class="testimonials__slide-photo"
+                    />
+                    <div class="testimonials__slide-name">Jeff Bezos:</div>
+                    <div class="testimonials__slide-role">
+                      Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                      Menschenfreund
+                    </div>
+                    <a href="#" class="testimonials__slide-fb"
+                      ><img src="@img/logos_facebook.svg" alt="Image"
+                    /></a>
+                  </div>
+                  <div class="testimonials__slide-text">
+                    Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von
+                    seinem eigenen Geld ausgegeben hat, um dieses Programm zu
+                    finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar
+                    von seinem eigenen Geld, um eine bessere Zukunft für alle zu
+                    finanzieren und um anderen zu helfen Gewinne zu machen, die
+                    ihm dabei helfen werden! Das ist eine Win-Win-Situation, und
+                    ich bin sehr gespannt zu sehen, wohin das führen wird.
+                  </div>
+                </div>
+                <div class="testimonials__slide swiper-slide">
+                  <div class="testimonials__slide-top">
+                    <img
+                      src="@img/testi-4.png"
+                      alt="image"
+                      class="testimonials__slide-photo"
+                    />
+                    <div class="testimonials__slide-name">Jeff Bezos:</div>
+                    <div class="testimonials__slide-role">
+                      Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                      Menschenfreund
+                    </div>
+                    <a href="#" class="testimonials__slide-fb"
+                      ><img src="@img/logos_facebook.svg" alt="Image"
+                    /></a>
+                  </div>
+                  <div class="testimonials__slide-text">
+                    Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von
+                    seinem eigenen Geld ausgegeben hat, um dieses Programm zu
+                    finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar
+                    von seinem eigenen Geld, um eine bessere Zukunft für alle zu
+                    finanzieren und um anderen zu helfen Gewinne zu machen, die
+                    ihm dabei helfen werden! Das ist eine Win-Win-Situation, und
+                    ich bin sehr gespannt zu sehen, wohin das führen wird.
+                  </div>
+                </div>
+                <div class="testimonials__slide swiper-slide">
+                  <div class="testimonials__slide-top">
+                    <img
+                      src="@img/testi-5.png"
+                      alt="image"
+                      class="testimonials__slide-photo"
+                    />
+                    <div class="testimonials__slide-name">Jeff Bezos:</div>
+                    <div class="testimonials__slide-role">
+                      Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                      Menschenfreund
+                    </div>
+                    <a href="#" class="testimonials__slide-fb"
+                      ><img src="@img/logos_facebook.svg" alt="Image"
+                    /></a>
+                  </div>
+                  <div class="testimonials__slide-text">
+                    Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von
+                    seinem eigenen Geld ausgegeben hat, um dieses Programm zu
+                    finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar
+                    von seinem eigenen Geld, um eine bessere Zukunft für alle zu
+                    finanzieren und um anderen zu helfen Gewinne zu machen, die
+                    ihm dabei helfen werden! Das ist eine Win-Win-Situation, und
+                    ich bin sehr gespannt zu sehen, wohin das führen wird.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="shareholders">
+          <div class="shareholders__container">
+            <h3 class="shareholders__title">Gli azionisti dell'azienda</h3>
+            <div class="shareholders__logos">
+              <a href="#" class="shareholders__logo">
+                <img src="@img/mediobanca.png" alt="Image" />
+              </a>
+              <a href="#" class="shareholders__logo">
+                <img src="@img/unicredit.png" alt="Image" />
+              </a>
+              <a href="#" class="shareholders__logo">
+                <img src="@img/bancaItalia.png" alt="Image" />
+              </a>
+              <a href="#" class="shareholders__logo">
+                <img src="@img/bdHoldings.png" alt="Image" />
+              </a>
+              <a href="#" class="shareholders__logo">
+                <img src="@img/carlo.png" alt="Image" />
+              </a>
+              <a href="#" class="shareholders__logo">
+                <img src="@img/logo.png" alt="Image" />
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('html/_footer.htm',{})
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

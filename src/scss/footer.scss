@@ -1,0 +1,60 @@
+//====================================================================================================
+.footer {
+  border-top: 1px solid #cc4238;
+  padding-top: toRem(36);
+  padding-bottom: toRem(68);
+  @media (max-width: $mobile) {
+    padding-bottom: toRem(40);
+  }
+  // .footer__container
+  &__container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: $mobile) {
+      flex-direction: column-reverse;
+    }
+  }
+  // .footer__logo
+  &__logo {
+    width: 79px;
+
+    flex-shrink: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+  // .footer__list
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 13px;
+    font-size: toRem(12);
+    line-height: math.div(14, 12);
+    max-width: toRem(840);
+    transition: color 0.3s;
+    @media (max-width: $mobile) {
+      font-size: toRem(15);
+      line-height: math.div(18, 15);
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    li {
+      list-style: none;
+      a {
+        @media (any-hover: hover) {
+          &:hover {
+            color: $red;
+          }
+        }
+      }
+    }
+  }
+}
+
+//====================================================================================================
