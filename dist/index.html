@@ -6,10 +6,10 @@
 	<meta charset="UTF-8" />
 	<meta name="format-detection" content="telephone=no" />
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240807160138" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20240807160910" />
 	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/css/intlTelInput.css?_v=20240807160138" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css?_v=20240807160138" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/css/intlTelInput.css?_v=20240807160910" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css?_v=20240807160910" />
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -22,7 +22,9 @@
 					<img src="img/logo.webp" alt="generali" />
 				</a>
 				<div class="header__menu menu">
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<button aria-label="menu" type="button" class="menu__icon icon-menu">
+						<span></span>
+					</button>
 					<nav class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
@@ -130,8 +132,8 @@
 				<h3 class="ceo__range-title">Potencijal dobiti</h3>
 				<div class="ceo__range-wrap">
 					<div class="ceo__range-left">
-						<input type="text" class="js-first-range" name="my_range" value="" />
-						<input type="text" class="js-second-range" name="my_range" value="" />
+						<input type="text" class="js-first-range" name="js-first-range" id="js-first-range" value="" />
+						<input type="text" class="js-second-range" name="js-second-range" id="js-second-range" value="" />
 						<a href="#" class="ceo__range-button">MOGUĆA DOBIT: <span>€ 8600</span></a>
 					</div>
 					<div class="ceo__range-right">
@@ -279,7 +281,7 @@
 				<a href="#" class="footer__logo">
 					<img src="img/logo.webp" alt="Image" />
 				</a>
-				<div class="footer__list">
+				<ul class="footer__list">
 					<li><a href="#">Mappa del sito</a></li>
 					<li><a href="#">Termini di utilizzo</a></li>
 					<li><a href="#">Avviso di accessibilità</a></li>
@@ -289,14 +291,14 @@
 					</li>
 					<li><a href="#">Avviso di frode Web e phishing</a></li>
 					<li><a href="#">Politica sui reclami – Australia</a></li>
-				</div>
+				</ul>
 			</div>
 		</footer>
 
 	</div>
-	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/js/intlTelInput.min.js?_v=20240807160138"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js?_v=20240807160138"></script>
-	<script src="js/app.min.js?_v=20240807160138"></script>
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/js/intlTelInput.min.js?_v=20240807160910"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js?_v=20240807160910"></script>
+	<script src="js/app.min.js?_v=20240807160910"></script>
 
 </body>
 
